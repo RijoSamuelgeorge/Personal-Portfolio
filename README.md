@@ -1,2 +1,2 @@
 # Personal-Portfolio
-My Personal Portfolio using only HTML &amp; CSS.
+My Personal Portfolio project using only HTML &amp; CSS.
