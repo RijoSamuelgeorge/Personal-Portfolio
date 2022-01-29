@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 950px)" href="./css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 670px)" href="./css/phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">HELLO, I AM<br>RIJO<br> SAMUELGEORGE</h1>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="final.jpg" alt="Rijo">
+            <div id="intro">
+                <h2>RIJO SAMUELGEORGE</h2>
+                <h3>FULL STACK WEB DEVELOPER</h3>
+                <p>Even though I am from Civil Engineering but my interest in coding made me a "Full stack web developer".
+                     Good learner and even good in  problem-solving skills. Languages known JAVA, HTML, C++, JAVASCRIPT.
+                      Passionate about implementing and launching new projects. Looking to start the career as a software engineer with a reputed firm driven by technology and eager to leran new skills.</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="portfolio/image1.jpg" alt="">
+            <img src="portfolio/image2.jpg" alt="">
+            <img src="portfolio/image3.jpg" alt="">
+            <img src="portfolio/image4.jpg" alt="">
+            <img src="portfolio/image5.jpg" alt="">
+            <img src="portfolio/image6.jpg" alt="">
+        </div>
+    </section>
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="services/png1.png" alt="front end">
+                <h1 class="headings">Frontend Development</h1>
+                <p>Frontend services for displaying the right content on different target devices 
+                    and systems like Smartphone & Desktop-Browser quickly and optimally for the respective display
+                    using HTML CSS & JAVASCRIPT.</p>
+            </div>
+            <div class="box">
+                <img src="services/png2.png" alt="back end">
+                <h1 class="headings">Backend Develpoment</h1>
+                <p>Backend services not just for making a server, application, and database communicate with each other.
+                     but also for building a product that works seamlessly, meet market needs and creating an enjoyable
+                      user experience that earns your clients loyalty by using 
+                      MongoDB, NodeJS, ReactJS, MySQL etc.</p>
+            </div>
+            <div class="box">
+                <img src="services/png3.png" alt="digital marketing">
+                <h1 class="headings">Digital Marketing</h1>
+                <p>Digital marketing services help for your digital channels
+                    which helps you reach your customers with ease using SEO.
+                    SEO, Content marketing, Social media marketing, Social media advertising,
+                     Web design and web development.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="headings">CONTACT ME</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Please enter your Name">
+            <input type="email" name="email" class="input" placeholder="Please enter your E-mail">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Please enter your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
